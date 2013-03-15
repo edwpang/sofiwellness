@@ -1,0 +1,32 @@
+
+RewriteEngine on
+
+# Use PHP5 Single php.ini as default
+AddHandler application/x-httpd-php5s .php
+# -FrontPage-
+
+IndexIgnore .htaccess */.??* *~ *# */HEADER* */README* */_vti*
+
+<Limit GET POST>
+order deny,allow
+deny from all
+allow from all
+</Limit>
+<Limit PUT DELETE>
+order deny,allow
+deny from all
+</Limit>
+AuthName sofiwellness.com
+AuthUserFile /home/greenhi9/public_html/_vti_pvt/service.pwd
+AuthGroupFile /home/greenhi9/public_html/_vti_pvt/service.grp
+
+#AuthType Basic
+#AuthName "FORBIDDEN AREA"
+#AuthUserfile "/home/greenhi9/.htpasswd"
+#require valid-user
+DirectoryIndex index.php
+RewriteCond %{REQUEST_URI} !/public.*
+RewriteCond %{REQUEST_URI} !/javascript.*
+
+RewriteRule !\.(js|ico|gif|jpg|png|css|php)$ ./index.php
+

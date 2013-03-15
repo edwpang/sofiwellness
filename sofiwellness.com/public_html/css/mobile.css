@@ -1,0 +1,99 @@
+@CHARSET "UTF-8";
+
+
+p, ul, ol {
+	margin:0;
+	padding:0 0 5px;
+}
+
+ul, ol {
+	list-style:none;
+	padding:0 0 5px;
+	font:2em arial;
+}
+p {
+	font:1.5em arial;
+}
+
+h0 {
+	padding:15px 0 15px;
+	letter-spacing:-1px;
+	font:bold 3em 'Oswald', arial, helvetica, sans-serif;
+	color: #333;
+}
+
+
+h1 {
+	padding:10px 0 5px;
+	letter-spacing:-1px;
+	font:bold 2.5em arial, helvetica, sans-serif;
+	color: #d97837;
+}
+
+h2 {
+	padding:10px 0;
+	letter-spacing:-1px;
+	font: bold 2em arial, helvetica, sans-serif;
+	color: #2f5c80;
+}
+
+
+h3 {
+	font:1.5 em arial, helvetica, sans-serif;
+	font-weight:bold;
+	color: #333;
+}
+
+/* for service and fee */
+div.svc-list{
+	width:100%;
+	margin:20px 0;
+	border-top:1px solid #FFC641;
+}
+
+div.svc-list h3{
+	margin-top:5px;
+}
+
+div.svc-list .text{
+	margin-left:140px;
+	border:0px solid red;
+}
+
+div.svc-list .name{
+	float:left;
+	margin:10px 5px;
+    width:123px;
+}
+
+
+ul.svc{
+list-style-type: none;
+width: 100%;
+margin: 0;
+padding: 0;
+}
+
+ul.svc li {
+float: left;
+width: 47%;
+margin: 5px;
+border-top: 1px #006734 solid;
+padding: 5px;
+text-align: left;
+background: #fff/*#f3f3f3*/;
+}
+
+ul.svc  img{
+  float:left;
+  margin:0px 10px 6px 0px;
+  border:1px solid #666;
+}
+
+ul.svc h3{
+  color:#006734;
+  font-size:1.5em;
+  margin-bottom:5px;
+}
+
+
