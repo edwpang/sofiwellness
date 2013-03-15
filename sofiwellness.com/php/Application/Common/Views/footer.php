@@ -9,8 +9,8 @@
 
 </div> <!-- #content -->
 
-<div id="footer" style="<?php echo $this->footerStyle;?>;<?php echo $content_attrib?>">
-<div id="footer_content" style="<?php echo $content_attrib?>;align:center;">
+<div id="footer" style="<?php echo $this->footerStyle;?>">
+<div id="footer_content" class="foot_content">
 
         <p>
         Copyright &#169; 2013 <?php echo GlobalConstants::SITE_NAME;?>. All rights reserved. 

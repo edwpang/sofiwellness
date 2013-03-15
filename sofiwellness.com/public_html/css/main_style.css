@@ -26,19 +26,26 @@ div#container
 	margin-right: auto ;
 }
 
-#content { 
+div.content, div.header_content, div.foot_content { 
 	padding-bottom: 2em; 
-	background:#ffffff;
+	
 	color:#3d4244;
 	font-family:Tahoma;
-	font-size:14px;
-	width:800px;
-	padding:10px;
+	width:1280px;
+	padding:5px;
 	position:relative;
 	text-align:left;
 	align:center;
-	margin-left: auto ;
-	margin-right: auto ;
+	margin: auto ;
+	
+}
+div.content {
+	background:#ffffff;	
+}
+
+div.header_content, div.foot_content 
+{
+	background:#9fd0b9;
 }
 
 /* for hold all panel */
