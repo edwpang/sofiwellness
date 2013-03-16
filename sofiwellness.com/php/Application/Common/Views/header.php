@@ -79,7 +79,7 @@ $body_bkColor = '#ffffff';
 	<script type="text/javascript" src="/js/dhmltooltip/wz_tooltip.js"></script>
 
 
-	<div id="header" style="<?php echo $this->headerStyle;?>;<?php echo $content_attrib?>height:110px;">
+	<div id="header" style="<?php echo $this->headerStyle;?>;<?php echo $content_attrib?>height:112px;">
 		<div id="header_content" class ="header_content">
 
 			<div id="hd_image" style="width: 100%; align: center;">

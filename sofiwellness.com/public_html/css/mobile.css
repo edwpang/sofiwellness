@@ -3,20 +3,25 @@
 
 p, ul, ol {
 	margin:0;
-	padding:0 0 5px;
+	padding:0 0 0px;
 }
 
 ul, ol {
 	list-style:none;
-	padding:0 0 5px;
+	padding:0 0 0px;
 	font:2em arial;
 }
 p {
 	font:1.5em arial;
 }
-
+#tab-menu ul {
+	margin:0;
+	padding:5px 10px 0 50px;
+	list-style:none;
+  }
+  
 h0 {
-	padding:15px 0 15px;
+	padding:10px 0 10px;
 	letter-spacing:-1px;
 	font:bold 3em 'Oswald', arial, helvetica, sans-serif;
 	color: #333;
@@ -24,7 +29,7 @@ h0 {
 
 
 h1 {
-	padding:10px 0 5px;
+	padding:5px 0 5px;
 	letter-spacing:-1px;
 	font:bold 2.5em arial, helvetica, sans-serif;
 	color: #d97837;
@@ -82,6 +87,13 @@ border-top: 1px #006734 solid;
 padding: 5px;
 text-align: left;
 background: #fff/*#f3f3f3*/;
+}
+
+@media screen and (orientation:portrait) {
+    /* styles for narrow desktop browsers and iPad landscape */
+	ul.svc li {
+		width: 90%;
+	}
 }
 
 ul.svc  img{
