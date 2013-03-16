@@ -87,7 +87,7 @@ $body_bkColor = '#ffffff';
 				<table style="width: 100%;" border="0">
 					<tbody>
 						<tr>
-							<td style="width: 45%"><h0>&nbspSophie Wellness Centre</h0></td>
+							<td><h0>&nbspSophie Wellness Centre</h0></td>
 							<td>
 								<p>Call us at:905-886-8399&nbsp</p>
 							</td>

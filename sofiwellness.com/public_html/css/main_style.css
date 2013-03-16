@@ -35,10 +35,38 @@ div.content, div.header_content, div.foot_content {
 	padding:5px;
 	position:relative;
 	text-align:left;
-	align:center;
-	margin: auto ;
+	margin: auto;
 	
 }
+
+div.foot_content { 
+	text-align:center;
+}
+
+@media all and (max-width: 1920px) {
+	div.content, div.header_content, div.foot_content { 
+		width:1600px;
+	}
+}
+@media all and (max-width: 1680px) {
+	div.content, div.header_content, div.foot_content { 
+		width:1280px;
+	}
+}
+@media all and (max-width: 1024px) {
+    /* styles for narrow desktop browsers and iPad landscape */
+    div.content, div.header_content, div.foot_content { 
+		width:960px;
+	}
+}
+
+@media all and (max-width: 768px) {
+    /* styles for narrower desktop browsers and iPad portrait */
+    div.content, div.header_content, div.foot_content { 
+		width:720px;
+	}
+}
+
 div.content {
 	background:#ffffff;	
 }
