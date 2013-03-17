@@ -1,24 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <buildpath>
-	<buildpathentry kind="src" path="library/log4php-0.9/docs"/>
-	<buildpathentry kind="src" path="library/log4php-0.9/src/chainsaw"/>
-	<buildpathentry kind="src" path="library/log4php-0.9/src/log4php"/>
-	<buildpathentry kind="src" path="library/log4php-0.9/src/tests"/>
-	<buildpathentry kind="src" path="library/ZendFramework-1.0.1/demos/Zend/Feeds"/>
-	<buildpathentry kind="src" path="library/ZendFramework-1.0.1/demos/Zend/Gdata"/>
-	<buildpathentry kind="src" path="library/ZendFramework-1.0.1/demos/Zend/Mail"/>
-	<buildpathentry kind="src" path="library/ZendFramework-1.0.1/demos/Zend/Pdf"/>
-	<buildpathentry kind="src" path="library/ZendFramework-1.0.1/demos/Zend/Search/Lucene/feed-search"/>
-	<buildpathentry kind="src" path="library/ZendFramework-1.0.1/demos/Zend/Search/Lucene/indexing"/>
-	<buildpathentry kind="src" path="library/ZendFramework-1.0.1/demos/Zend/WebServices/Amazon"/>
-	<buildpathentry kind="src" path="library/ZendFramework-1.0.1/demos/Zend/WebServices/Flickr"/>
-	<buildpathentry kind="src" path="library/ZendFramework-1.0.1/demos/Zend/WebServices/Protocols"/>
-	<buildpathentry kind="src" path="library/ZendFramework-1.0.1/demos/Zend/WebServices/Yahoo"/>
-	<buildpathentry kind="src" path="library/ZendFramework-1.0.1/library/Zend"/>
-	<buildpathentry kind="src" path="library/ZendFramework-1.0.1/tests"/>
-	<buildpathentry kind="src" path="library/ZendFramework-1.12.2/bin"/>
-	<buildpathentry kind="src" path="library/ZendFramework-1.12.2/library/Zend"/>
-	<buildpathentry kind="src" path="php/Application"/>
-	<buildpathentry kind="src" path="public_html"/>
+	<buildpathentry kind="src" path=""/>
 	<buildpathentry kind="con" path="org.eclipse.php.core.LANGUAGE"/>
 </buildpath>
