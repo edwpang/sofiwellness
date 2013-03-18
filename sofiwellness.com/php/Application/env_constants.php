@@ -137,7 +137,7 @@ define('EMAIL_SENDER', 'system@greenhillhab.com');
 //------------------------------------------------
 //for database
 define ('DB_APP_TYPE', 'PDO_MYSQL');
-define ('DB_APP_HOST', 'localhost');  //or xxx.com
+define ('DB_APP_HOST', 'sofiwellness.com');  //or xxx.com
 //for source1
 define ('DB_APP_USERNAME', 'greenhi9_prog');
 define ('DB_APP_PASSWORD', '123456');
