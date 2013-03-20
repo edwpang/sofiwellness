@@ -84,13 +84,30 @@ $body_bkColor = '#ffffff';
 
 			<div id="hd_image" style="width: 100%; align: center;">
 
-				<table style="width: 100%;" border="0">
+				<table style="width: 100%;" valign="top" border="0">
 					<tbody>
 						<tr>
-							<td><h0>&nbspSophie Wellness Centre</h0></td>
-							<td>
-								<p>Call us at:905-886-8399&nbsp</p>
+							<td><h0>Sophie Wellness Centre</h0></td>
+							<td valign=top>
+								<span class="bold-small">Call 905-886-8399</span>
 							</td>
+							<td align="right" valign=top style="padding-right:30px">
+<?php 
+	if (Utils::getUserId() != null)
+	{
+?>
+	<a href="/auth/user/logout" style="color:blue"><span class="bold-small">Logout</span></a>
+<?php 
+	}
+	else
+	{
+?>
+		<a href="/auth/user/login" style="color:blue"><span class="bold-small">Login</span></a>
+		|<a href="/auth/signup" style="color:blue"><span class="bold-small">Signup</span></a>
+<?php
+	}
+?>
+</td>
 						</tr>
 					</tbody>
 				</table>

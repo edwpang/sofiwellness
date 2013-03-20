@@ -109,3 +109,7 @@ ul.svc h3{
 }
 
 
+/* for message */
+.gray-small {color:gray; font-size: 90%;}
+.small-font {font-size:90%;}
+.bold-small {font-weight:bold; font-size:1.5em;}
