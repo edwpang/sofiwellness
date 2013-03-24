@@ -47,12 +47,16 @@ if ($this->error_message != null)
 	<div id="info-section">
 		<h2>Sign in:</h2>
 		<div class="row">
-			<label class="col_r"><em>*</em>User ID:</label>
-			<span class="col_l"><input type="text" name="username" value="" class="req" tabindex="1"/></span>
-		</div>
-		<div class="row">
-			<label class="col_r"><em>*</em>Password:</label>
-			<span class="col_l"><input type="password" name="password" size="22"  value="" class="req" tabindex="2"/></span>
+			<table>
+				<tr>
+					<td><label style="width: 25%;" class="col_r"><em>*</em>User ID:</label></td>
+					<td><span class="col_l"><input type="text" name="username" value="" class="req" tabindex="1"/></span></td>
+				</tr>
+				<tr>
+					<td><label class="col_r"><em>*</em>Password:</label></td>
+					<td><span class="col_l"><input type="password" name="password" value="" class="req" tabindex="2"/></span></td>
+				</tr>
+			</table>
 		</div>
 		<div class="row" style="text-align:center; margin:20px 0;">
 			<input class="button-b" type="submit" name="save" value="Submit" tabindex="3" />

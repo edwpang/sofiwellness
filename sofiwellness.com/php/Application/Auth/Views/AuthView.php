@@ -18,10 +18,10 @@ $this->footWriter->addJsDesc($validFunc);
  
 include APP_COMMON_DIR . '/Views/header.php';
 
-if ($this->$left_panel_style == null)
-	$this->$left_panel_style = "width:10%;";
-if ($this->$right_panel_style == null)
-	$this->$right_panel_style = "width:85%;";
+if ($this->left_panel_style == null)
+	$this->left_panel_style = "width:10%;";
+if ($this->right_panel_style == null)
+	$this->right_panel_style = "width:85%;";
 ?>
 
 <div id="panel_container">

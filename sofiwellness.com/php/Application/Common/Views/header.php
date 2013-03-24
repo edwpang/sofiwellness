@@ -123,4 +123,4 @@ $body_bkColor = '#ffffff';
 	</div>
 	<!-- header -->
 
-	<div id="container" class ="content"">
+	<div id="container" class ="content">

@@ -1231,12 +1231,11 @@ background-color:#9f9
 /* COLUMN STYLES for gform */
 
 /* USED FOR GENERIC COLUMNS */
-.col_r {float: left; width: 120px; text-align: right;}
+.col_r { width: 120px; text-align: right;}
 .col_r_50 {float: left; width: 50px; text-align: right;}
 .col_r_100 {float: left; width: 100px; text-align: right;}
 col_r_200 {float: left; width: 200px; text-align: right;}
 .col_l, .col_l_500,.col_l_350, .col_l_280, .col_l_200, .col_l_50, .col_l_80, .col_l_20 {
-float: left; 
 width: 110px; 
 text-align: left;
 }

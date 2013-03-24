@@ -248,7 +248,7 @@ class Zend_Controller_Action_Helper_RedirectorTest extends PHPUnit_Framework_Tes
                 ->setControllerName('list')
                 ->setActionName('all');
 
-        $this->redirector->goto('error');
+        $this->redirector->goto_('error');
         $this->assertEquals('/blog/list/error', $this->redirector->getRedirectUrl());
     }
 
