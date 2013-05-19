@@ -21,9 +21,12 @@ $this->title .= ' - a clinic offering a wide range of alternative and complement
 <meta name="description"
 	content="Sophie Wellness Centre is a multi-disciplinary Clinic offering a wide range of alternative and complementary therapies, including massage therapy, acupuncture, chiropractor, skin care and so on.">
 	<meta name="keywords"
-		content="WELLNESS, REHAB, CLINIC, RICHMOND HILL, MARKHAM, THORNHILL, BACK PAIN, PHYSICAL THERAPY, REHABILITATION, MASSAGE, THERAPY, ACUPUNCTURE, CHIROPRACTOR, CHIROPRACTIC, PAIN FREE, SENIORS, WALK IN CLINIC, JOINT, PAIN RELIEF, RECOVERY, WELLBEING, SKIN CARE, HERABL, NECK PAIN, LEG PAIN, ARM PAIN, CHINESE MEDICINE, INFRARED SAUNA">
+		content="WELLNESS, REHAB, CLINIC, YORK REGION, RICHMOND HILL, MARKHAM, THORNHILL, BACK PAIN, PHYSICAL THERAPY, REHABILITATION, 
+		        MASSAGE THERAPY, ACUPUNCTURE, CHIROPRACTOR, CHIROPRACTIC, PAIN FREE, SENIORS, WALK IN CLINIC, JOINT, PAIN RELIEF, 
+		        RECOVERY, WELLBEING, SKIN CARE, HERABL, NECK PAIN, HEADACHE, LEG PAIN, ARM PAIN, CHINESE MEDICINE, INFERTILITY, ALLERGY, 
+		        FROZEN SHOULDER">
 		<title><?php echo $this->title; ?></title>
-
+		<link href="https://plus.google.com/116653214874031435081" rel="publisher" />
 		<link rel="shortcut icon" href="/images/sys/favicon.gif"
 			type="image/x-icon" />
 		<link href="/css/main_style.css" rel="stylesheet" type="text/css" />
@@ -79,7 +82,7 @@ $body_bkColor = '#ffffff';
 	<script type="text/javascript" src="/js/dhmltooltip/wz_tooltip.js"></script>
 
 
-	<div id="header" style="<?php echo $this->headerStyle;?>;<?php echo $content_attrib?>height:112px;">
+	<div id="header" style="<?php echo $this->headerStyle;?>;<?php echo $content_attrib?>height:150px;">
 		<div id="header_content" class ="header_content">
 
 			<div id="hd_image" style="width: 100%; align: center;">
@@ -87,7 +90,8 @@ $body_bkColor = '#ffffff';
 				<table style="width: 100%;" valign="top" border="0">
 					<tbody>
 						<tr>
-							<td><h0>Sophie Wellness Centre</h0></td>
+							<td><img src="images/sys/logo_sophie.png" align="left" padding="2px" alt="Sophie Wellness Centre">
+							</td>
 							<td valign=top>
 								<span class="bold-small">Call 905-886-8399</span>
 							</td>
